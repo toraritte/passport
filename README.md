@@ -1,3 +1,7 @@
+
+[![Build Status](https://travis-ci.org/cpjk/canary.svg?branch=patch_1)](https://travis-ci.org/toraritte/passport)
+[![Hex pm](https://img.shields.io/hexpm/v/passport.svg?style=flat)](https://hex.pm/packages/passport)
+
 # Passport
 Passport is a ready to use authentication library for Phoenix. Using Passport is as easy as just running this simple command `$ mix passport.install`
 
