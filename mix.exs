@@ -5,7 +5,7 @@ defmodule Passport.Mixfile do
     [app: :passport,
      description: "Provides authentication for phoenix applications",
      version: "0.0.4",
-     elixir: "~> 1.2",
+     elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      package: package(),
@@ -24,7 +24,7 @@ defmodule Passport.Mixfile do
 
   defp deps do
     [
-      {:phoenix, "~> 1.1"},
+      {:phoenix, "~> 1.2"},
       {:comeonin, "~> 2.5"}]
   end
 end
